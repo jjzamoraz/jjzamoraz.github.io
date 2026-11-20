@@ -1634,12 +1634,24 @@ a.contact-value:hover {
 }
 
 .about-skill-label {
-  margin-bottom: .45rem;
+  margin-bottom: .5rem;
   color: var(--faint);
   font-family: var(--mono);
-  font-size: .6rem;
-  letter-spacing: .1em;
-  text-transform: uppercase;
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+}
+
+.about-skill-label--red {
+  color: var(--red);
+}
+
+.about-skill-label--blue {
+  color: var(--accent);
+}
+
+.about-skill-label--amber {
+  color: var(--amber);
 }
 
 /* ---------- Responsive ---------- */
