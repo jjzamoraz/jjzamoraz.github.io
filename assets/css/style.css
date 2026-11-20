@@ -1282,39 +1282,10 @@ a.contact-value:hover {
   color: var(--accent);
 }
 
-/* Email: valor en una sola línea, con el botón copiar junto a la etiqueta */
-.contact-card--email .contact-row {
-  display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) auto;
-  grid-template-areas:
-    "icon label copy"
-    "icon value value";
-  align-items: center;
-  column-gap: .8rem;
-  row-gap: .15rem;
-}
-
-.contact-card--email .contact-icon {
-  grid-area: icon;
-}
-
-.contact-card--email .contact-info {
-  display: contents;
-}
-
-.contact-card--email .contact-label {
-  grid-area: label;
-}
-
+/* Email: el valor nunca se parte y el botón copiar queda centrado a la derecha */
 .contact-card--email .contact-value {
-  grid-area: value;
   white-space: nowrap;
   overflow-wrap: normal;
-}
-
-.contact-card--email .copy-btn {
-  grid-area: copy;
-  justify-self: end;
 }
 
 /* ---------- 404 ---------- */
@@ -1401,7 +1372,7 @@ a.contact-value:hover {
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 1300px) {
+@media (max-width: 1480px) {
   .contact-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
