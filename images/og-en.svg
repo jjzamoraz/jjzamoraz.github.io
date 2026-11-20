@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Jimmy Zamora — Systems Administrator &amp; Security">
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#38bdf8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="18%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#080d14"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#38bdf8"/>
+
+  <text x="90" y="118" font-family="DejaVu Sans Mono, monospace" font-size="21" fill="#38bdf8">jimmy@portfolio:~$ whoami</text>
+
+  <text x="90" y="245" font-family="DejaVu Sans Mono, monospace" font-size="78" font-weight="bold" fill="#f1f7fc">JIMMY</text>
+  <text x="90" y="330" font-family="DejaVu Sans Mono, monospace" font-size="78" font-weight="bold" fill="#38bdf8">ZAMORA</text>
+
+  <text x="90" y="386" font-family="DejaVu Sans, sans-serif" font-size="29" fill="#c2ceda">Systems Administrator</text>
+  <text x="90" y="424" font-family="DejaVu Sans, sans-serif" font-size="29" fill="#38bdf8">Information Security</text>
+
+  <line x1="90" y1="458" x2="670" y2="458" stroke="#1f2e3e" stroke-width="2"/>
+  <text x="90" y="500" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#8798a8">eJPTv2  ·  AZ-900  ·  Ethical Hacking</text>
+
+  <text x="90" y="572" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#566777">tuusuario.github.io</text>
+
+  <rect x="756" y="148" width="364" height="334" rx="12" fill="#0f1722" stroke="#1f2e3e" stroke-width="2"/>
+  <path d="M756 160a12 12 0 0 1 12-12h340a12 12 0 0 1 12 12v34H756z" fill="#14202e"/>
+  <circle cx="782" cy="171" r="5" fill="#d94f4f"/>
+  <circle cx="800" cy="171" r="5" fill="#e09f3e"/>
+  <circle cx="818" cy="171" r="5" fill="#4ade80"/>
+  <text x="840" y="177" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#8798a8">jimmy@portfolio: ~</text>
+
+  <text x="782" y="238" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#7dd3fc">jimmy@portfolio:~$ <tspan fill="#38bdf8">whoami</tspan></text>
+  <text x="782" y="266" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#8798a8">jimmy — sysadmin</text>
+
+  <text x="782" y="308" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#7dd3fc">jimmy@portfolio:~$ <tspan fill="#38bdf8">cat profile.txt</tspan></text>
+  <text x="782" y="336" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#8798a8">Blue team · hardening · Azure</text>
+
+  <text x="782" y="378" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#7dd3fc">jimmy@portfolio:~$ <tspan fill="#38bdf8">ls certs/</tspan></text>
+  <text x="782" y="406" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#f1f7fc">eJPTv2  AZ-900  ethical-hacking</text>
+
+  <text x="782" y="448" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#7dd3fc">jimmy@portfolio:~$ <tspan fill="#38bdf8">./contact.sh</tspan></text>
+  <rect x="782" y="462" width="7" height="15" fill="#38bdf8"/>
+</svg>
