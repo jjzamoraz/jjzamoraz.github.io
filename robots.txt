@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tuusuario.github.io/sitemap.xml
+Sitemap: https://jjzamoraz.github.io/sitemap.xml
