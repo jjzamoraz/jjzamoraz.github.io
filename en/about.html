@@ -124,62 +124,200 @@
       <header class="page-header">
         <p class="page-kicker">// whoami</p>
         <h1 class="page-title">About</h1>
-        <p class="page-lead">
-          A systems administrator with a blue team mindset. I like infrastructure to work,
-          to be documented and to withstand a security review without surprises.
-        </p>
       </header>
 
-      <section class="section about-grid" aria-label="Introduction">
-        <div class="card">
-          <div class="center">
-            <div class="avatar" aria-hidden="true">JZ</div>
-            <p class="name">Jimmy <span>Zamora</span></p>
-            <p class="handle">Systems Administrator</p>
-          </div>
-          <dl class="fact-list">
-            <div class="fact">
-              <dt>Role</dt>
-              <dd>Systems Administrator</dd>
+      <p class="about-tagline">Jimmy Zamora — Systems Administrator | eJPTv2 | AZ-900 | Blue Team | Hardening</p>
+
+      <div class="about-layout">
+        <div class="about-main">
+          <section class="card about-card" aria-labelledby="profile-title">
+            <h2 class="about-title" id="profile-title">Professional profile and philosophy</h2>
+            <p class="about-text">
+              I am a systems administrator and my day-to-day work sits right next to the
+              infrastructure: Windows Server, Active Directory, Linux, virtualisation, networking
+              and backups. I like to understand how everything works before touching it, and
+              document it afterwards.
+            </p>
+            <p class="about-text">
+              I do not see security as an add-on, but as part of a job well done. I apply
+              hardening, review permissions, manage patches and read logs with the same attention
+              I give to a backup. The eJPTv2 certification helps me understand how an attacker
+              thinks and prioritise better.
+            </p>
+            <p class="about-text">
+              Outside work I keep learning in labs, reading and testing things. I am interested in
+              blue team, Active Directory security and automation. If something can be scripted so
+              it is not forgotten, even better.
+            </p>
+            <blockquote class="about-quote">
+              <p>“Security is a process, not a product.”</p>
+              <cite>— Bruce Schneier</cite>
+            </blockquote>
+          </section>
+
+          <section class="card about-card" aria-labelledby="education-title">
+            <h2 class="about-title" id="education-title">Education and career</h2>
+            <div class="about-timeline">
+              <article class="about-item">
+                <div class="about-item-head">
+                  <span class="about-badge">Experience</span>
+                  <span class="about-date">2025 — present</span>
+                </div>
+                <h3>Systems Administrator</h3>
+                <p class="about-org">Infrastructure and security</p>
+                <ul class="about-list">
+                  <li>Windows/Linux infrastructure administration, identity and virtualisation.</li>
+                  <li>Backups, monitoring and incident resolution.</li>
+                  <li>Hardening, permission control and least privilege.</li>
+                </ul>
+              </article>
+
+              <article class="about-item">
+                <div class="about-item-head">
+                  <span class="about-badge about-badge--cert">Certification</span>
+                  <span class="about-date">2025</span>
+                </div>
+                <h3>eJPTv2 · INE Security</h3>
+                <p class="about-org">Junior Penetration Tester</p>
+                <ul class="about-list">
+                  <li>Pentesting methodology, enumeration and controlled exploitation.</li>
+                  <li>Hands-on network and web application labs.</li>
+                </ul>
+              </article>
+
+              <article class="about-item">
+                <div class="about-item-head">
+                  <span class="about-badge about-badge--cert">Certification</span>
+                  <span class="about-date">2024</span>
+                </div>
+                <h3>AZ-900 · Microsoft</h3>
+                <p class="about-org">Azure Fundamentals</p>
+                <ul class="about-list">
+                  <li>Cloud, identity, governance and cost fundamentals.</li>
+                  <li>Foundation for managing Azure and Microsoft 365 services.</li>
+                </ul>
+              </article>
+
+              <article class="about-item">
+                <div class="about-item-head">
+                  <span class="about-badge">Training</span>
+                  <span class="about-date">2024</span>
+                </div>
+                <h3>Ethical Hacking</h3>
+                <p class="about-org">Hands-on training</p>
+                <ul class="about-list">
+                  <li>Web and network pentesting with practical labs.</li>
+                  <li>Enumeration, exploitation and documenting findings.</li>
+                </ul>
+              </article>
             </div>
-            <div class="fact">
-              <dt>Location</dt>
-              <dd>Spain · Europe/Madrid</dd>
-            </div>
-            <div class="fact">
-              <dt>Focus</dt>
-              <dd>Blue team · Hardening</dd>
-            </div>
-            <div class="fact">
-              <dt>Availability</dt>
-              <dd class="text-accent">Open to opportunities</dd>
-            </div>
-          </dl>
-          <div class="actions actions--center">
-            <a class="btn primary" href="../assets/cv-en.pdf" download>Download CV</a>
-          </div>
+          </section>
         </div>
 
-        <div class="card">
-          <div class="section-head"><h2>Bio</h2></div>
-          <p class="lead">
-            I am a systems administrator and my day-to-day work sits right next to the infrastructure:
-            Windows Server, Active Directory, Linux, virtualisation, networking and backups.
-            I like to understand how everything works before touching it, and document it afterwards.
-          </p>
-          <p class="lead mt-1">
-            I do not see security as an add-on, but as part of a job well done.
-            I apply hardening, review permissions, manage patches and read logs with the same
-            attention I give to a backup. The eJPTv2 certification helps me understand
-            how an attacker thinks and prioritise better.
-          </p>
-          <p class="lead mt-1">
-            Outside work I keep learning in labs, reading and testing things. I am interested in
-            blue team, Active Directory security and automation. If something can be
-            scripted so it is not forgotten, even better.
-          </p>
-        </div>
-      </section>
+        <aside class="about-side" aria-label="Details and specialties">
+          <div class="about-photo">
+            <!-- To use a photo: save images/perfil.jpg and replace the <span> with <img src="images/perfil.jpg" alt="Jimmy Zamora" /> -->
+            <span class="about-monogram" aria-hidden="true">JZ</span>
+            <span class="about-photo-tag"><i aria-hidden="true"></i> SYSADMIN // BLUE TEAM</span>
+          </div>
+
+          <section class="card about-meta" aria-labelledby="meta-title">
+            <h2 class="about-meta-title" id="meta-title">[ metadata ]</h2>
+            <dl class="fact-list">
+              <div class="fact">
+                <dt>Name</dt>
+                <dd>Jimmy Zamora</dd>
+              </div>
+              <div class="fact">
+                <dt>Role</dt>
+                <dd>Systems Administrator</dd>
+              </div>
+              <div class="fact">
+                <dt>Location</dt>
+                <dd>Spain · Remote / Hybrid</dd>
+              </div>
+              <div class="fact">
+                <dt>Time zone</dt>
+                <dd>Europe/Madrid</dd>
+              </div>
+              <div class="fact">
+                <dt>Certification</dt>
+                <dd>eJPTv2 · AZ-900</dd>
+              </div>
+              <div class="fact">
+                <dt>Availability</dt>
+                <dd class="text-accent">Open to opportunities</dd>
+              </div>
+            </dl>
+            <div class="about-actions">
+              <a class="btn ghost" href="../assets/cv-en.pdf" download>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v11"/><path d="m7.5 10 4.5 4.5 4.5-4.5"/><path d="M4 20h16"/></svg>
+                Download CV (PDF)
+              </a>
+              <a class="btn primary" href="contact.html">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                Get in touch
+              </a>
+            </div>
+          </section>
+
+          <section class="card about-card about-specialties" aria-labelledby="specialties-title">
+            <h2 class="about-meta-title" id="specialties-title">[ specialties ]</h2>
+
+            <div class="about-skill-group">
+              <p class="about-skill-label">Systems</p>
+              <div class="skill-chips">
+                <span class="chip">Windows Server</span>
+                <span class="chip">Linux</span>
+                <span class="chip">Active Directory</span>
+                <span class="chip">VMware</span>
+                <span class="chip">Proxmox</span>
+              </div>
+            </div>
+
+            <div class="about-skill-group">
+              <p class="about-skill-label">Networking</p>
+              <div class="skill-chips">
+                <span class="chip">TCP/IP</span>
+                <span class="chip">VLAN</span>
+                <span class="chip">Firewall</span>
+                <span class="chip">VPN</span>
+                <span class="chip">DNS / DHCP</span>
+              </div>
+            </div>
+
+            <div class="about-skill-group">
+              <p class="about-skill-label">Security</p>
+              <div class="skill-chips">
+                <span class="chip">Hardening</span>
+                <span class="chip">Pentesting</span>
+                <span class="chip">Wireshark</span>
+                <span class="chip">Nessus</span>
+                <span class="chip">Burp Suite</span>
+              </div>
+            </div>
+
+            <div class="about-skill-group">
+              <p class="about-skill-label">Cloud</p>
+              <div class="skill-chips">
+                <span class="chip">Azure</span>
+                <span class="chip">Microsoft 365</span>
+                <span class="chip">Backup</span>
+              </div>
+            </div>
+
+            <div class="about-skill-group">
+              <p class="about-skill-label">Tools</p>
+              <div class="skill-chips">
+                <span class="chip">PowerShell</span>
+                <span class="chip">Bash</span>
+                <span class="chip">Git</span>
+                <span class="chip">Nmap</span>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
 
       <section class="section" aria-labelledby="what-i-do-title">
         <div class="section-head">
@@ -202,98 +340,6 @@
             <h3>Automation</h3>
             <p class="lead">PowerShell and Bash scripts for repetitive tasks and deployments.</p>
           </article>
-        </div>
-      </section>
-
-      <section class="section split" aria-label="Career and stack">
-        <div class="card">
-          <div class="section-head"><h2>Career</h2></div>
-          <div class="timeline">
-            <div class="tl">
-              <p class="tl-date">2025 — present</p>
-              <h3>Systems Administrator</h3>
-              <p>Windows/Linux infrastructure administration, identity, virtualisation, backups and monitoring.</p>
-            </div>
-            <div class="tl">
-              <p class="tl-date">2025</p>
-              <h3>eJPTv2 · INE Security</h3>
-              <p>Hands-on pentesting certification: methodology, enumeration and controlled exploitation.</p>
-            </div>
-            <div class="tl">
-              <p class="tl-date">2024</p>
-              <h3>AZ-900 · Microsoft</h3>
-              <p>Azure fundamentals: cloud, identity, governance and costs.</p>
-            </div>
-            <div class="tl">
-              <p class="tl-date">2024</p>
-              <h3>Ethical Hacking</h3>
-              <p>Web and network pentesting training, with practical labs.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="section-head"><h2>Technical stack</h2></div>
-
-          <div class="skill-card">
-            <h3>Systems</h3>
-            <div class="skill-chips">
-              <span class="chip">Windows Server</span>
-              <span class="chip">Linux</span>
-              <span class="chip">Active Directory</span>
-              <span class="chip">VMware</span>
-              <span class="chip">Proxmox</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <h3>Networking</h3>
-            <div class="skill-chips">
-              <span class="chip">TCP/IP</span>
-              <span class="chip">VLAN</span>
-              <span class="chip">Firewall</span>
-              <span class="chip">VPN</span>
-              <span class="chip">DNS / DHCP</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <h3>Security</h3>
-            <div class="skill-chips">
-              <span class="chip">Hardening</span>
-              <span class="chip">Pentesting</span>
-              <span class="chip">Wireshark</span>
-              <span class="chip">Nessus</span>
-              <span class="chip">Burp Suite</span>
-            </div>
-          </div>
-
-          <div class="skill-card">
-            <h3>Cloud</h3>
-            <div class="skill-chips">
-              <span class="chip">Azure</span>
-              <span class="chip">Microsoft 365</span>
-              <span class="chip">Backup</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" aria-labelledby="everyday-tools-title">
-        <div class="card">
-          <div class="section-head">
-            <h2 id="everyday-tools-title">Everyday tools</h2>
-          </div>
-          <div class="chips chips--flush">
-            <span class="chip">PowerShell</span>
-            <span class="chip">Bash</span>
-            <span class="chip">Active Directory</span>
-            <span class="chip">Wireshark</span>
-            <span class="chip">Nmap</span>
-            <span class="chip">Burp Suite</span>
-            <span class="chip">Nessus</span>
-            <span class="chip">Git</span>
-          </div>
         </div>
       </section>
 
