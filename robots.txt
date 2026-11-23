@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /pentesting/
 
 Sitemap: https://jjzamoraz.github.io/sitemap.xml
